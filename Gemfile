@@ -54,7 +54,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '~> 0.21'
+  gem 'pg'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
