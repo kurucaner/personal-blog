@@ -11,4 +11,28 @@
 
 #home-container {
   margin-top: 25px;
+  flex: 1 0 auto;
+}
+
+.jumbotron {
+  color: #fff;
+  background-image: asset-url("home-image.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+   background-color: lightgrey;
+   flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
 }
